@@ -1,0 +1,1235 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #fff;
+}
+
+h4 {
+    font-size: 20px;
+    color: #fff;
+
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.mrg {
+    background-image: url(img/b1.png);
+    margin: 0;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 60px 0;
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.8s;
+    margin-top: 20px;
+}
+
+body {
+    width: 98vw;
+    background-color: #262626;
+}
+
+#cat #text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+#card img {
+    width: 20vw;
+    height: 35vh;
+    margin: 30px 30px;
+}
+
+#card #card-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-size: cover;
+    width: 22vw;
+    height: 30vh;
+    background-image: url(img/background2.png);
+    background-position: center;
+    margin: 30px 19px;
+    border-radius: 5px;
+}
+
+#card #card-box:nth-child(5) {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/05/16/27/12/1000_F_516271276_kG6UT9utCvQP6faTwwsEre2YvXzuGWhP.jpg');
+}
+
+#card #card-box:nth-child(1) {
+    background-image: url('https://img.freepik.com/free-photo/handsome-smiling-hipster-man-posing-studio_158538-25610.jpg?w=826&t=st=1707316231~exp=1707316831~hmac=94a1e922c1b0f605b6f38c93106555c71072a605802561de9ad068b772b886ba');
+}
+
+#card #card-box:nth-child(3) {
+    background-image: url('img/sweatshirtb.jpg');
+}
+
+#card #card-box:nth-child(4) {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/05/58/06/40/1000_F_558064081_oh7D5OGq5lCbXCxtC0NN9xlAm5S4DzV8.jpg');
+}
+
+#card-box button {
+
+    font-size: 25px;
+    font-weight: 700;
+    transition: 0.7s;
+    align-items: center;
+    align-content: center;
+}
+
+#card-box button:hover {
+    background-color: #088178;
+    color: #fff;
+}
+
+#card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    background-color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    position: sticky;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    transition: all ease 0.6s;
+}
+
+#navbar li a:hover,
+#navbar li a :active {
+    color: #088178;
+    transition: all 0.6s ease;
+}
+
+#navbar li a:active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 35%;
+    height: 3px;
+    background-color: #088178;
+    position: absolute;
+    left: 20px;
+    bottom: -4px;
+}
+
+#tab-mobile {
+    display: none;
+    align-items: center;
+}
+
+#cart img:hover path,
+#cart img:hover circle {
+    stroke: #088178;
+}
+
+#main {
+    background-image: url(img/background3.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#main button a{
+    color: black;
+    text-decoration: none;
+    transition: 0.7s;
+}
+#main button:hover a{
+    color: white;
+}
+#main h1 {
+    color: #088178;
+}
+
+#main h2 {
+    color: #fff;
+}
+
+#main h4 {
+    color: #aca8a8;
+}
+
+#main p {
+    color: #818181;
+}
+
+#main button {
+
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+#main button:hover {
+    background-color: #088178;
+    color: white;
+}
+
+#Fe-products h2 {
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+#Fe-products .product {
+    width: 14%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #4b4b4b;
+    position: relative;
+    border-radius: 15px;
+    margin-right: 5%;
+
+}
+
+#Fe-products .product #c1 {
+    width: 100%;
+    border-radius: 15px;
+    height: 40vh;
+    transition: 0.5s;
+}
+
+.product #des {
+    color: white;
+    font-size: 17px;
+}
+
+#cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #514949;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+#Fe-products .product:hover {
+    box-shadow: 20px 20px 30px rgb(0, 0, 0)
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 40px;
+    margin-left: 5vw;
+}
+
+.top {
+    margin-top: 30px;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 100%;
+    height: 40vh;
+    background-image: url(img/b1.png);
+    background-position: center;
+}
+
+#banner h2 span {
+    color: red;
+}
+
+#banner button:hover {
+    background-color: #088178;
+    color: #fff;
+}
+
+#n-banner .banner-box:nth-child(1) {
+    background-image: url('https://i.pinimg.com/564x/79/5d/08/795d080aff27f2864d05a5f3f7052a18.jpg');
+    border-radius: 10px;
+}
+
+#n-banner .banner-box:nth-child(2) {
+    background-image: url('https://i.pinimg.com/564x/db/98/21/db9821ac9ea20cbc217c2e1c09a5f4fd.jpg');
+    border-radius: 10px;
+
+}
+
+.banner-box button {
+    position: relative;
+    top: 21%;
+    left: 78%;
+}
+
+#Fe-products p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 30px;
+}
+
+#n-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding: 40px 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+#n-banner .banner-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-size: cover;
+    min-width: 680px;
+    height: 50vh;
+    padding: 30px;
+    background-image: url(img/background2.png);
+    background-position: center;
+}
+
+#n-banner .banner-box h4,
+h2 {
+    color: white;
+}
+
+#n-banner .banner-box button:hover {
+    background-color: #088178;
+    color: #fff;
+}
+
+#banner3 .banner-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-size: cover;
+    min-width: 25%;
+    height: 30vh;
+    padding: 20px;
+    background-image: url(img/background2.png);
+    background-position: center;
+    margin-bottom: 20px;
+    margin: 0px 20px;
+}
+
+#banner3 .banner-box:nth-child(1) {
+    background-image: url('https://i.pinimg.com/564x/5f/a4/ef/5fa4efe5959da0b65124d05b312cb6eb.jpg');
+    border-radius: 5px;
+}
+
+#banner3 .banner-box:nth-child(2) {
+    background-image: url('https://i.pinimg.com/564x/25/cb/3b/25cb3bfc1d033a5cb20fe4f2f7d299e0.jpg');
+    border-radius: 5px;
+
+}
+
+#banner3 .banner-box:nth-child(3) {
+    background-image: url('https://i.pinimg.com/564x/1e/a1/61/1ea1610fe728650aca29c0d4487c7609.jpg');
+    border-radius: 5px;
+
+}
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    border-radius: 5px;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+
+}
+
+#signup {
+    background-image: url(img/b1.png);
+    margin: 60px 0;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#close {
+    display: none;
+}
+
+#signup h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#signup span {
+    color: #a0a045;
+}
+
+#signup p {
+    color: #2e2e7e;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#signup input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+}
+
+#signup button {
+    background-color: #088178;
+    color: #fff;
+    margin-top: 0;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#signup #form {
+    display: flex;
+    width: 40%;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+}
+
+footer .col {
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+footer #logo {
+    width: 60px;
+    height: 60px;
+}
+
+footer h4,
+p,
+h3 {
+    color: white;
+}
+
+#icons {
+    margin-top: 10px;
+}
+
+footer #copyright {
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    transition: 1s;
+}
+
+footer a:hover {
+    color: #088178;
+    text-decoration: underline;
+}
+
+#row img {
+    border-radius: 5px;
+}
+
+#icons :hover {
+    fill: #088178;
+}
+
+#bannerabout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    width: 100%;
+    height: 40vh;
+    background-image: url(img/b1.png);
+    background-position: center;
+}
+
+#about-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about-info img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#scroll {
+    background-color: #ffffff80;
+}
+
+#info span {
+    color: white;
+    text-decoration: underline;
+}
+
+#info {
+    padding-left: 40px;
+}
+
+#feature .card img {
+    width: 15vw;
+    margin-bottom: 40px;
+    height: 35vh;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#head-info h2 {
+    align-items: center;
+    text-align: center;
+}
+
+#cart-info {
+    padding: 50px 0;
+}
+
+#cart-info table {
+    width: 80vw;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+    color: white;
+    margin: 0px 8%;
+}
+
+#cart-info table img {
+    border-radius: 7px;
+    width: 60px;
+}
+
+#cart-info table tbody input {
+    width: 50px;
+    height: 35px;
+    font-weight: 700;
+    background-color: #cbd1d6;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#cart-info table thead {
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+}
+
+#cart-info table thead td {
+    padding: 20px 0;
+}
+
+#cart-info table tbody td {
+    padding-left: 10px;
+}
+
+#cart-info table tbody tr td {
+    padding-top: 15px;
+}
+
+#cart-info table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+#cart-info table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart-info table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+
+#cart-info table td:nth-child(4),
+#cart-info table td:nth-child(5),
+#cart-info table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+
+#pay-details #Coupon input {
+
+    padding: 15px 20px;
+    width: 60%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+#pay-details #Coupon button {
+    background-color: #088178;
+}
+
+#pay-details h2 {
+    font-size: 40px;
+}
+
+#pay-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+#checkout {
+    width: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#checkout table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#checkout table td {
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 15px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+#checkout h2 {
+    padding-bottom: 15px;
+}
+
+#checkout button {
+    background-color: #088178;
+}
+
+#pay-details #Coupon {
+    width: 50%;
+}
+
+#pro-details #sp-img {
+    width: 40%;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+#pro-details #sp-img img {
+    border-radius: 10px;
+}
+#sp-img img{
+    width: 30vw;
+    height: 82vh;
+}
+#pro-details #smll-img {
+    width: 23%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+#pro-details #smll-img img {
+    border-radius: 5px;
+}
+
+#s-details {
+    width: 60%;
+}
+
+#s-details h6 {
+    color: white;
+    font-size: 14px;
+    padding: 0px 0px 20px 0px;
+}
+
+#s-details h2 {
+    padding: 40px 0px 20px 0px;
+}
+
+#pro-details {
+    display: flex;
+}
+
+#s-details h3 {
+    font-size: 40px;
+}
+
+#s-details select {
+    display: block;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#s-details input {
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    outline: none;
+
+}
+
+#s-details button {
+    background-color: #088178;
+}
+
+#s-details h4 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+#Fe-products .product :hover#c1{
+    transform: scale(1.03);
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #navbar {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        top: 0;
+        right: -500px;
+        height: 100vh;
+        background-color: #000;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+        padding: 0px 0 0 10px;
+        z-index: 10;
+        position: absolute;
+        padding-right: 16%;
+        transition: 0.4s;
+
+    }
+    #pro-details img{
+        height: 35vh;
+        width: 36vw;
+        margin-top: 5vh;
+    }
+    
+    
+   
+    #header {
+        position: sticky;
+    }
+
+    #close {
+        display: initial;
+    }
+
+    #tab-mobile {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #navbar li {
+        margin-top: 20px;
+    }
+
+    #bag {
+        display: none;
+    }
+    #banner3{
+        display: none;
+    }
+    .banner-box button {
+        position: relative;
+        top: 19%;
+        left: 85%;
+    }
+    #main {
+
+        height: 55vh;
+
+        padding: 0 80px;
+        background-position: top 30% right 50%;
+    }
+
+    #container {
+
+        margin: 0 70px;
+
+    }
+
+    #banner {
+        height: 20vh;
+    }
+
+    #banner h2 {
+        font-size: 38px;
+    }
+
+    #n-banner .banner-box {
+
+        min-width: 100%;
+        height: 35vh;
+        margin-top: 20px;
+    }
+
+    .banner-box {
+        margin: 0 10px;
+    }
+
+    #banner3 .banner-box {
+
+        height: 25vh;
+
+    }
+
+    #n-banner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #signup #form {
+
+        width: 70%;
+    }
+
+    #card #card-box {
+
+        width: 40vw;
+        height: 15vh;
+
+    }
+
+    #bannerabout {
+        background-repeat: no-repeat;
+        height: 20vh;
+    }
+
+    #cart-info table {
+        width: auto;
+    }
+
+    .active:active {
+        content: "";
+        width: 35%;
+        height: 3px;
+        background-color: #088178;
+        position: absolute;
+    }
+
+    #pay-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #checkout {
+        width: 100%;
+    }
+
+    #Coupon {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #feature .card img {
+        width: 35vw;
+    }
+
+    #Fe-products .product #c1 {
+
+        height: 25vh;
+    }
+   
+    #Fe-products .product {
+        height: 35vh;
+        width: 43%;
+    }
+}
+
+@media (max-width:767px) {
+    #header {
+
+        padding: 0px 30px;
+
+    }
+    #pro-details #sp-img {
+        width: 100%;
+        margin-right: 0px;
+        border-radius: 10px;
+    }
+    
+    #bannerabout {
+        height: 30vh;
+        background-repeat: no-repeat;
+    }
+
+    #cart-info {
+        overflow-x: auto;
+    }
+
+    #close {
+        display: initial;
+    }
+
+    #tab-mobile {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #pay-details {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #pay-details #Coupon {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    #checkout {
+        width: 100%;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #pay-details #Coupon input {
+        width: 100%;
+    }
+
+    #navbar {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        top: 0;
+        right: -500px;
+        height: 100vh;
+        background-color: #000;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+        padding: 0px 0 0 10px;
+        z-index: 10;
+        position: absolute;
+        padding-right: 16%;
+        transition: 0.4s;
+
+    }
+
+    #header {
+        position: sticky;
+    }
+
+    #close {
+        display: initial;
+    }
+
+    #tab-mobile {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #navbar li {
+        margin-top: 20px;
+    }
+
+    #bag {
+        display: none;
+    }
+
+    #container {
+
+        margin: 0 70px;
+    }
+
+    #banner {
+        height: 20vh;
+    }
+
+    #banner h2 {
+        font-size: 38px;
+    }
+
+    #n-banner .banner-box {
+
+        min-width: 100%;
+        height: 35vh;
+
+    }
+
+    .banner-box {
+        margin: 0 10px;
+    }
+
+    #banner3 .banner-box {
+
+        height: 25vh;
+
+    }
+
+    #signup #form {
+
+        width: 70%;
+    }
+
+    #main {
+        height: 66vh;
+        padding: 0 20px;
+        background-position: 50%;
+
+    }
+
+    #container {
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+    }
+
+    #main h2 {
+        font-size: 36px;
+    }
+
+    #main h1 {
+        font-size: 40px;
+    }
+
+    #banner {
+        height: 30vh;
+    }
+
+    #n-banner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding: 40px 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner-box {
+        margin: 0 10px;
+    }
+
+    #n-banner .banner-box {
+        min-width: 100%;
+        height: 35vh;
+        margin-top: 10px;
+    }
+
+    #banner3 {
+        display: none;
+
+    }
+
+    #Fe-products .product #c1 {
+        height: 32vh;
+    }
+
+    #Fe-products .product {
+        height: 45vh;
+    }
+
+    #signup {
+
+        margin: 30px 0;
+        height: 30vh;
+        padding: 20px 20px;
+    }
+
+    .banner-box button {
+
+        left: 65%;
+    }
+
+    #n-banner {
+        margin-left: 0px;
+    }
+
+    #about-info img {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    #about-info {
+        display: block;
+        padding: 0px;
+    }
+
+    #info {
+        padding-left: 15px;
+    }
+
+    #feature .card img {
+        width: 80vw;
+    }
+
+    #signup #form {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px 20px;
+    }
+
+    #card #card-box {
+
+        width: 75vw;
+        height: 20vh;
+
+    }
+    #pro-details {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding: 0;
+    }
+    #sp-img img {
+        width: 100%;
+        height: 50vh;
+        margin-top: 20px;
+    }
+    #s-details {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #s-details h2 {
+        font-size: 35px;
+        line-height: 20px;
+    }
+    #s-details h3{
+        font-size: 36px;
+    }
+}
